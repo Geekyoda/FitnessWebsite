@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang=""en>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@800&display=swap" rel="stylesheet">
+
+    <title>Satyam Fitness</title>
+    <link ref="" href="css/style.css" >
+    <style>
+
+        body{
+            font-family: 'Baloo Bhaina 2', cursive;
+            color: white;
+             margin: 0px;
+             padding: 0px;
+             background: url('img/jog.jpg');  
+             /* imp** */
+        }
+        .left{
+            display: inline-block;
+            border: 2px solid red;
+            position: absolute;
+            left: 60px;
+            top: 20px;
+            width: 20%;
+        }
+        .left img{
+            width: 136px;
+            filter: invert(10%);
+        }
+        .left div{
+            text-align: center;
+            text-align: left;
+        }
+        .mid{
+            display: block;
+            width: 59%;
+            margin: 20px auto;
+            border: 2px slid green;
+
+        }
+        .right{
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            display: inline-block;
+            border: 2px solid yellow;
+
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+              display: inline-block;
+              font-size: 25px;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+
+         }
+        .navbar li a:hover, .navbar li a.active{
+            color: white;
+            text-decoration: none;
+    
+        }
+        .btn{
+            margin: 0px 9px;
+            background-color: black;
+            color: black;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color:rgb(162, 29, 29);
+        }
+       .container{
+        border: 2px solid green;
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+
+       }
+      .form-group input{
+        font-family: 'Baloo Bhaina 2', cursive;
+        text-align: center;
+        display: block;
+        width: 500px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+
+       }
+       .container h1 {
+               text-align: center;
+       }
+       .container button{
+        display: block;
+        width: 74%;
+        margin: 15px auto;
+
+       }
+    </style>
+</head>
+<body>
+    <header class="">
+
+        <div class="left">
+
+          <img src="img/logo.jpg" alt="">
+          <div>Satyam Fitness</div>
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Fitness Calculator</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+          <buttonn>call now</buttonn>
+          <buttonn>email us</buttonn>
+        </div>    
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Delhi</h1>
+        <form action="noaction.group">
+            <div class="">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+            <div class="">
+                <input type="text" name="" placeholder="Enter Your Locality">
+            </div>
+            
+            <button class="btn">Submit</button>
+
+        </form> 
+    </div>
+</body>
+</html>
